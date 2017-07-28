@@ -11,5 +11,5 @@ app.listen(PORT, () => {
 });
 
 app.get('/', (req, res) => {
-  res.send('meBatman');
+  res.send({ name: 'Tee' });
 })
