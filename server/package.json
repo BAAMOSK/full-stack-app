@@ -15,10 +15,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
   },
   "devDependencies": {
-    "morgan": "^1.8.2",
     "nodemon": "^1.11.0"
   }
 }
