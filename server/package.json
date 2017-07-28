@@ -9,13 +9,15 @@
   },
   "scripts": {
     "start": "node index.js",
-    "nodemon": "nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "passport": "^0.3.2",
+    "passport-google-oauth20": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
