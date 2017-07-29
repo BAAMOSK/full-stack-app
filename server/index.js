@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
 const { mongoURI, cookieKey } = require('./config/keys');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 require('./models/User');
 require('./services/passport');
 
